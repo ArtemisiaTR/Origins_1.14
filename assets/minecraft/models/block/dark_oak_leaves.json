@@ -1,0 +1,7 @@
+{
+    "parent": "block/leaves",
+    "textures": {
+        "leaf": "block/dark_oak_leaves",
+		"round": "block/dark_oak_leaves_round"
+    }
+}

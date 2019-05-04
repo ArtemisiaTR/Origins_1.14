@@ -1,0 +1,9 @@
+{
+	"parent": "block/cube_bottom_top",
+	"textures": {
+		"particle": "block/fire_coral_block",
+		"bottom": "block/fire_coral_block",
+		"top": "block/fire_coral_block_top",
+		"side": "block/fire_coral_block"
+	}
+}

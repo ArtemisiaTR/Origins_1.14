@@ -1,0 +1,68 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/torch",
+		"handle": "block/tempered_iron",
+		"wood": "block/dark_oak_log",
+		"charcoal": "block/burning_coal_block",
+		"flame": "block/torch_flame"
+	},
+	"elements": [ 	 
+		{
+			"from": [ 7, 0, 7 ],
+			"to": [ 9, 10, 9 ],
+			"faces": {
+				"down": { "uv": [ 7, 7, 9, 9 ], "texture": "#wood" },
+				"up": { "uv": [ 7, 7, 9, 9 ], "texture": "#wood" },
+				"north": { "uv": [ 7, 6, 9, 16 ], "texture": "#wood" },
+				"south": { "uv": [ 7, 6, 9, 16 ], "texture": "#wood" },
+				"west": { "uv": [ 7, 6, 9, 16 ], "texture": "#wood" },
+				"east": { "uv": [ 7, 6, 9, 16 ], "texture": "#wood" }
+			}
+		},
+		{
+			"from": [ 6.5, 10, 6.5 ],
+			"to": [ 9.5, 14, 9.5 ],
+			"faces": {
+				"down": { "uv": [ 6.499993, 6.5, 9.499992, 9.5 ], "texture": "#charcoal" },
+				"up": { "uv": [ 6.499993, 6.5, 9.499992, 9.5 ], "texture": "#charcoal" },
+				"north": { "uv": [ 6.5, 10, 9.5, 14 ], "texture": "#charcoal" },
+				"south": { "uv": [ 6.5, 10, 9.5, 14 ], "texture": "#charcoal" },
+				"west": { "uv": [ 6.5, 2, 9.5, 6 ], "texture": "#charcoal" },
+				"east": { "uv": [ 6.5, 2, 9.5, 6 ], "texture": "#charcoal" }
+			}
+		},
+		{
+			"from": [ 5.5, 13, 7 ],
+			"to": [ 10.5, 22, 7.001 ],
+			"faces": {
+				"north": { "uv": [ 5.5, 0.5, 10.5, 9.5 ], "texture": "#flame" },
+				"south": { "uv": [ 10.5, 0.5, 5.5, 9.5 ], "texture": "#flame" }
+			}
+		},
+		{
+			"from": [ 5.5, 13, 9 ],
+			"to": [ 10.5, 22, 9.001 ],
+			"faces": {
+				"north": { "uv": [ 10.5, 0.5, 5.5, 9.5 ], "texture": "#flame" },
+				"south": { "uv": [ 5.5, 0.5, 10.5, 9.5 ], "texture": "#flame" }
+			}
+		},
+		{
+			"from": [ 7, 13, 5.5 ],
+			"to": [ 7.001, 22, 10.5 ],
+			"faces": {
+				"west": { "uv": [ 5.5, 0.5, 10.5, 9.5 ], "texture": "#flame" },
+				"east": { "uv": [ 10.5, 0.5, 5.5, 9.5 ], "texture": "#flame" }
+			}
+		},
+		{
+			"from": [ 9, 13, 5.5 ],
+			"to": [ 9.001, 22, 10.5 ],
+			"faces": {
+				"west": { "uv": [ 10.5, 0.5, 5.5, 9.5 ], "texture": "#flame" },
+				"east": { "uv": [ 5.5, 0.5, 10.5, 9.5 ], "texture": "#flame" }
+			}
+		}
+	]
+}

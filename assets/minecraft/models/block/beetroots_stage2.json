@@ -1,0 +1,6 @@
+{
+    "parent": "block/crop_beetroot",
+    "textures": {
+        "crop": "block/beetroots_stage2"
+    }
+}

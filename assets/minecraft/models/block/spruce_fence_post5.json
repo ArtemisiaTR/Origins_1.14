@@ -1,0 +1,21 @@
+{
+	"textures": {
+		"particle": "block/spruce_fence_planks",
+		"post": "block/spruce_fence_post",
+		"plank": "block/spruce_fence_planks"
+	},
+	"elements": [ 	 
+		{
+			"from": [ 6.5, 0, 6.5 ],
+			"to": [ 9.5, 16, 9.5 ],
+			"faces": {
+				"down": { "uv": [ 6.5, 6.5, 9.5, 9.5 ], "texture": "#post" },
+				"up": { "uv": [ 6.5, 6.5, 9.5, 9.5 ], "texture": "#post" },
+				"north": { "uv": [ 11, 0, 14, 16 ], "texture": "#post" },
+				"south": { "uv": [ 12.5, 0, 15.5, 16 ], "texture": "#post" },
+				"west": { "uv": [ 2.5, 0, 5.5, 16 ], "texture": "#post" },
+				"east": { "uv": [ 0, 0, 3, 16 ], "texture": "#post" }
+			}
+		}
+	]
+}

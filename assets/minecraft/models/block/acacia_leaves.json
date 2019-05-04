@@ -1,0 +1,7 @@
+{
+    "parent": "block/leaves",
+    "textures": {
+        "leaf": "block/acacia_leaves",
+	    "round": "block/acacia_leaves_round"
+    }
+}

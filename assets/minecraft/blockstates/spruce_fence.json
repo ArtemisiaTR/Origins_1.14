@@ -1,0 +1,54 @@
+{
+    "multipart": [
+        {   
+			"apply": [
+				{ "model": "block/spruce_fence_post1", "weight": 4 },
+				{ "model": "block/spruce_fence_post2", "weight": 2 },
+				{ "model": "block/spruce_fence_post3", "weight": 2 },
+				{ "model": "block/spruce_fence_post4" },
+				{ "model": "block/spruce_fence_post5", "weight": 2 },
+				{ "model": "block/spruce_fence_post6", "weight": 2 }
+			]
+		},
+        {   "when": { "north": "true" },
+            "apply": [
+				{ "model": "block/spruce_fence_side1", "weight": 6 },
+				{ "model": "block/spruce_fence_side2", "weight": 3 },
+				{ "model": "block/spruce_fence_side3", "weight": 3 },
+				{ "model": "block/spruce_fence_side4", "weight": 2 },
+				{ "model": "block/spruce_fence_side5" },
+				{ "model": "block/spruce_fence_side6" }
+			]
+        },
+        {   "when": { "east": "true" },
+            "apply": [
+				{ "model": "block/spruce_fence_side1", "weight": 6, "y": 90 },
+				{ "model": "block/spruce_fence_side2", "weight": 3, "y": 90 },
+				{ "model": "block/spruce_fence_side3", "weight": 3, "y": 90 },
+				{ "model": "block/spruce_fence_side4", "weight": 2, "y": 90 },
+				{ "model": "block/spruce_fence_side5", "y": 90 },
+				{ "model": "block/spruce_fence_side6", "y": 90 }
+			]
+        },
+        {   "when": { "south": "true" },
+            "apply": [
+				{ "model": "block/spruce_fence_side1", "weight": 6, "y": 180 },
+				{ "model": "block/spruce_fence_side2", "weight": 3, "y": 180 },
+				{ "model": "block/spruce_fence_side3", "weight": 3, "y": 180 },
+				{ "model": "block/spruce_fence_side4", "weight": 2, "y": 180 },
+				{ "model": "block/spruce_fence_side5", "y": 180 },
+				{ "model": "block/spruce_fence_side6", "y": 180 }
+			]
+        },
+        {   "when": { "west": "true" },
+            "apply": [
+				{ "model": "block/spruce_fence_side1", "weight": 6, "y": 270 },
+				{ "model": "block/spruce_fence_side2", "weight": 3, "y": 270 },
+				{ "model": "block/spruce_fence_side3", "weight": 3, "y": 270 },
+				{ "model": "block/spruce_fence_side4", "weight": 2, "y": 270 },
+				{ "model": "block/spruce_fence_side5", "y": 270 },
+				{ "model": "block/spruce_fence_side6", "y": 270 }
+			]
+        }
+    ]
+}

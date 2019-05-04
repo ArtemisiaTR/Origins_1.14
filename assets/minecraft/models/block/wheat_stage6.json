@@ -1,0 +1,82 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/wheat_stage6",
+		"crop_top": "block/wheat_stage6_top",
+		"crop_bottom": "block/wheat_stage6"
+	},
+	"elements": [ 	 
+		{
+			"from": [ 4, -1, 0 ],
+			"to": [ 4.001, 15, 16 ],
+			"shade": false,
+			"faces": {
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#crop_bottom" },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#crop_bottom" }
+			}
+		},
+		{
+			"from": [ 12, -1, 0 ],
+			"to": [ 12.001, 15, 16 ],
+			"shade": false,
+			"faces": {
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#crop_bottom" },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#crop_bottom" }
+			}
+		},
+		{
+			"from": [ 0, -1, 4 ],
+			"to": [ 16, 15, 4.001 ],
+			"shade": false,
+			"faces": {
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#crop_bottom" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#crop_bottom" }
+			}
+		},
+		{
+			"from": [ 0, -1, 12 ],
+			"to": [ 16, 15, 12.001 ],
+			"shade": false,
+			"faces": {
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#crop_bottom" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#crop_bottom" }
+			}
+		},
+		{
+			"from": [ 4, 15, 0 ],
+			"to": [ 4.001, 19, 16 ],
+			"shade": false,
+			"faces": {
+				"west": { "uv": [ 0, 0, 16, 1 ], "texture": "#crop_top" },
+				"east": { "uv": [ 0, 0, 16, 1 ], "texture": "#crop_top" }
+			}
+		},
+		{
+			"from": [ 12, 15, 0 ],
+			"to": [ 12.001, 19, 16 ],
+			"shade": false,
+			"faces": {
+				"west": { "uv": [ 0, 12, 16, 16 ], "texture": "#crop_top" },
+				"east": { "uv": [ 0, 12, 16, 16 ], "texture": "#crop_top" }
+			}
+		},
+		{
+			"from": [ 0, 15, 4 ],
+			"to": [ 16, 19, 4.001 ],
+			"shade": false,
+			"faces": {
+				"north": { "uv": [ 0, 12, 16, 16 ], "texture": "#crop_top" },
+				"south": { "uv": [ 0, 12, 16, 16 ], "texture": "#crop_top" }
+			}
+		},
+		{
+			"from": [ 0, 15, 12 ],
+			"to": [ 16, 19, 12.001 ],
+			"shade": false,
+			"faces": {
+				"north": { "uv": [ 0, 12, 16, 16 ], "texture": "#crop_top" },
+				"south": { "uv": [ 0, 12, 16, 16 ], "texture": "#crop_top" }
+			}
+		}
+	]
+}
