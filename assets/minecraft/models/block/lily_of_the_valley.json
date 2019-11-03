@@ -1,0 +1,64 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/lily_of_the_valley",
+		"cross": "block/lily_of_the_valley",
+		"stem": "block/lily_of_the_valley_stem"
+	},
+	"elements": [ 	 
+		{
+			"from": [ 2, 0, 13 ],
+			"to": [ 18, 16, 13.001 ],
+			"rotation": { "origin": [ 2, 0, 13 ], "axis": "y", "angle": 45 },
+			"faces": {
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#cross" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#cross" }
+			}
+		},
+		{
+			"from": [ 2.5, 0, 2 ],
+			"to": [ 2.501, 16, 18 ],
+			"rotation": { "origin": [ 2.5, 0, 2 ], "axis": "y", "angle": 45 },
+			"faces": {
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#cross" },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#cross" }
+			}
+		},
+		{
+			"from": [ 8, 0, 0 ],
+			"to": [ 16, 0.001, 16 ],
+			"rotation": { "origin": [ 8, 0, 0 ], "axis": "z", "angle": 22.5 },
+			"faces": {
+				"down": { "uv": [ 0, 8, 16, 16 ], "texture": "#stem", "rotation": 90 },
+				"up": { "uv": [ 0, 8, 16, 16 ], "texture": "#stem", "rotation": 90 }
+			}
+		},
+		{
+			"from": [ 0, 0, 0 ],
+			"to": [ 8, 0.001, 16 ],
+			"rotation": { "origin": [ 8, 0, 0 ], "axis": "z", "angle": -22.5 },
+			"faces": {
+				"down": { "uv": [ 0, 8, 16, 16 ], "texture": "#stem", "rotation": 270 },
+				"up": { "uv": [ 0, 8, 16, 16 ], "texture": "#stem", "rotation": 270 }
+			}
+		},
+		{
+			"from": [ 0, 0, 0 ],
+			"to": [ 16, 0.001, 8 ],
+			"rotation": { "origin": [ 0, 0, 8 ], "axis": "x", "angle": 22.5 },
+			"faces": {
+				"down": { "uv": [ 16, 16, 0, 8 ], "texture": "#stem" },
+				"up": { "uv": [ 0, 8, 16, 16 ], "texture": "#stem" }
+			}
+		},
+		{
+			"from": [ 0, 0, 8 ],
+			"to": [ 16, 0.001, 16 ],
+			"rotation": { "origin": [ 0, 0, 8 ], "axis": "x", "angle": -22.5 },
+			"faces": {
+				"down": { "uv": [ 0, 8, 16, 16 ], "texture": "#stem" },
+				"up": { "uv": [ 16, 16, 0, 8 ], "texture": "#stem" }
+			}
+		}
+	]
+}

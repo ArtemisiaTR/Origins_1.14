@@ -1,0 +1,45 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/sweet_berry_bush_stage3",
+		"cross": "block/sweet_berry_bush_stage3"
+	},
+	"elements": [ 	 
+		{
+			"from": [ -6.5, 0, 9.5 ],
+			"to": [ 25.5, 32, 9.501 ],
+			"rotation": { "origin": [ -6.5, 0, 9.5 ], "axis": "x", "angle": -22.5 },
+			"faces": {
+				"north": { "uv": [ 16, 0, 0, 16 ], "texture": "#cross" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#cross" }
+			}
+		},
+		{
+			"from": [ -6.5, 0, 9.5 ],
+			"to": [ 25.5, 32, 9.501 ],
+			"rotation": { "origin": [ -6.5, 0, 9.5 ], "axis": "x", "angle": 22.5 },
+			"faces": {
+				"north": { "uv": [ 16, 0, 0, 16 ], "texture": "#cross" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#cross" }
+			}
+		},
+		{
+			"from": [ 10.5, 0, -5.5 ],
+			"to": [ 10.501, 32, 26.5 ],
+			"rotation": { "origin": [ 10.5, 0, -5.5 ], "axis": "z", "angle": -22.5 },
+			"faces": {
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#cross" },
+				"east": { "uv": [ 16, 0, 0, 16 ], "texture": "#cross" }
+			}
+		},
+		{
+			"from": [ 8.5, 0, -5.5 ],
+			"to": [ 8.501, 32, 26.5 ],
+			"rotation": { "origin": [ 8.5, 0, -5.5 ], "axis": "z", "angle": 22.5 },
+			"faces": {
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#cross" },
+				"east": { "uv": [ 16, 0, 0, 16 ], "texture": "#cross" }
+			}
+		}
+	]
+}
