@@ -1,0 +1,26 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"particle": "block/fletching_table_top",
+		"front": "block/fletching_table_front",
+		"top": "block/fletching_table_top",
+		"bottom": "block/birch_planks",
+		"side": "block/fletching_table_side",
+		"side2": "block/fletching_table_side2",
+		"side3": "block/fletching_table_side3"
+	},
+	"elements": [ 	 
+		{
+			"from": [ 0, 0, 0 ],
+			"to": [ 16, 16, 16 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 16 ], "texture": "#bottom", "cullface": "down" },
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#top", "cullface": "up" },
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#side2", "cullface": "north" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#front", "cullface": "south" },
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#side", "cullface": "west" },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#side3", "cullface": "east" }
+			}
+		}
+	]
+}

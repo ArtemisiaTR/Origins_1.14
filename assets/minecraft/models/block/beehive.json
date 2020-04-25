@@ -1,0 +1,45 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"particle": "block/beehive_side",
+		"front": "block/beehive_front",
+		"side": "block/beehive_side",
+		"bottom": "block/beehive_end"
+	},
+	"elements": [ 	 
+		{
+			"from": [ 0, 0, 0 ],
+			"to": [ 16, 16, 16 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 16 ], "texture": "#bottom", "cullface": "down" },
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#bottom", "cullface": "up" },
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#front", "cullface": "north" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#side", "cullface": "south" },
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#side", "cullface": "west" },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#side", "cullface": "east" }
+			}
+		},
+		{
+			"from": [ 2, 16, 2 ],
+			"to": [ 14, 17.5, 14 ],
+			"faces": {
+				"up": { "uv": [ 2, 2, 14, 14 ], "texture": "#bottom", "cullface": "up" },
+				"north": { "uv": [ 1.5, 6, 13.5, 7.5 ], "texture": "#side", "cullface": "up" },
+				"south": { "uv": [ 1.5, 6, 13.5, 7.5 ], "texture": "#side", "cullface": "up" },
+				"west": { "uv": [ 1.5, 6, 13.5, 7.5 ], "texture": "#side", "cullface": "up" },
+				"east": { "uv": [ 1.5, 6, 13.5, 7.5 ], "texture": "#side", "cullface": "up" }
+			}
+		},
+		{
+			"from": [ 4, 17.5, 4 ],
+			"to": [ 12, 19.5, 12 ],
+			"faces": {
+				"up": { "uv": [ 4, 4, 12, 12 ], "texture": "#bottom", "cullface": "up" },
+				"north": { "uv": [ 4, 2, 12, 4 ], "texture": "#side", "cullface": "up" },
+				"south": { "uv": [ 4, 2, 12, 4 ], "texture": "#side", "cullface": "up" },
+				"west": { "uv": [ 4, 2, 12, 4 ], "texture": "#side", "cullface": "up" },
+				"east": { "uv": [ 4, 2, 12, 4 ], "texture": "#side", "cullface": "up" }
+			}
+		}
+	]
+}

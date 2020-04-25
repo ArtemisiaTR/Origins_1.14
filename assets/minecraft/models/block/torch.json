@@ -24,8 +24,8 @@
 			"from": [ 6.5, 10, 6.5 ],
 			"to": [ 9.5, 14, 9.5 ],
 			"faces": {
-				"down": { "uv": [ 6.499993, 6.5, 9.499992, 9.5 ], "texture": "#charcoal" },
-				"up": { "uv": [ 6.499993, 6.5, 9.499992, 9.5 ], "texture": "#charcoal" },
+				"down": { "uv": [ 6.5, 6.5, 9.5, 9.5 ], "texture": "#charcoal" },
+				"up": { "uv": [ 6.5, 6.5, 9.5, 9.5 ], "texture": "#charcoal" },
 				"north": { "uv": [ 6.5, 10, 9.5, 14 ], "texture": "#charcoal" },
 				"south": { "uv": [ 6.5, 10, 9.5, 14 ], "texture": "#charcoal" },
 				"west": { "uv": [ 6.5, 2, 9.5, 6 ], "texture": "#charcoal" },
